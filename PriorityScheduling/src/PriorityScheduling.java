@@ -42,6 +42,9 @@ public class PriorityScheduling {
                 return t1.getPriority()-t2.getPriority();
             }
         });
-        execute(ListeTaches);
+        try{
+            execute(ListeTaches);
+        }catch(Exception e){}
+        
     }
 }
