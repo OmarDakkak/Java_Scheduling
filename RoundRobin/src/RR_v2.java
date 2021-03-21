@@ -37,6 +37,9 @@ public class RR_v2 {
         ListeTaches.add(T2);
         ListeTaches.add(T3);
         ListeTaches.add(T4);
-        execute(ListeTaches, quantum);
+        try{
+           execute(ListeTaches, quantum); 
+        }catch(Exception e){}
+        
     }
 }
